@@ -3,9 +3,9 @@ function splitArrayInGroups(arr, n) {
 
     for (var i = 0; i < n; i++) {
         result.push(arr.slice(i * n, i * n + n));
-    }
+    };
     return result;
-}
+};
 
 console.log(splitArrayInGroups(["a", "b", "c", "d"], 2));
 console.log(splitArrayInGroups([0, 1, 2, 3, 4, 5, 6], 3));

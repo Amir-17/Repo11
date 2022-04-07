@@ -6,10 +6,10 @@ function bubbleSort(arr) {
                 var das = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = das;
-}
-        }
-    }
+            };
+        };
+    };
     return arr;
-}
+};
 console.log(bubbleSort(myArr));
 module.exports = bubbleSort;

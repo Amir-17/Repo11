@@ -5,9 +5,9 @@ function myMonitorsFunction(arr) {
     var monitorsList = [];
     for (var i = 0; i < newMonitorsList.length; i++){
         monitorsList.push([newMonitorsList[i], i + 1]);
-    }
+    };
     return monitorsList;
-}
+};
 
 console.log(myMonitorsFunction(monitorListArray));
 

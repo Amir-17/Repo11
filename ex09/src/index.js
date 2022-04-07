@@ -6,14 +6,14 @@ function myMutation(arr) {
     for (var i = 0; i < second.length; i++) {
         if (first.indexOf(second[i]) > -1) {
             count++;
-        }
-    }
+        };
+    };
     if (count == second.length) {
         return true;
     } else {
         return false;
     };
-}
+};
 
 console.log(myMutation(["hello", "hey"]));
 console.log(myMutation(["hello", "Hello"]));
